@@ -11,9 +11,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Continents />} />
-          <Route path="/:continentName" element={<Countries />} />
+          <Route path="/:continentCode" element={<Countries />} />
           <Route
-            path="/:continentName/:countryName"
+            path="/:continentId/:countryId"
             element={<CountryDetails />}
           />
         </Routes>

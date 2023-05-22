@@ -1,0 +1,9 @@
+query continent($code: ID!) {
+  continent(code: $code) {
+    name 
+    countries {
+      code
+      name
+    }
+  }
+}

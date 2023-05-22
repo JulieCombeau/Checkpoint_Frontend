@@ -2,5 +2,8 @@ query continents {
   continents {
     code
     name
+    countries {
+      name
   }
+}
 }

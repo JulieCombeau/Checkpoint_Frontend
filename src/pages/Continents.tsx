@@ -8,8 +8,6 @@ export default function Continents() {
 
   const continentsList = data?.continents;
 
-  console.log(continentsList);
-
   return (
     <>
       <div className="continents-container">
@@ -18,7 +16,9 @@ export default function Continents() {
           {continentsList?.map((continent) => (
             <div
               className="continents_item"
-              onClick={() => navigate(`/${continent.name}`)}
+              onClick={() =>
+                navigate(`/${continent.code}`)
+              }
             >
               <p>{continent.name}</p>
             </div>
