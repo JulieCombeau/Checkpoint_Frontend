@@ -1,0 +1,24 @@
+.country-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+}
+.country-title {
+  align-self: center;
+}
+
+.country_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap : 1rem;
+}
+
+.country_item {
+  width: 200px;
+  border: 1px solid grey;
+  padding: 1rem;
+  text-align: center;
+}

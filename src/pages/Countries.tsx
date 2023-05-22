@@ -22,7 +22,7 @@ export default function Countries() {
           {countriesList?.countries?.map((country) => (
             <div
               className="continents_item"
-              onClick={() => navigate(`/${continentCode}/${country.name}`)}
+              onClick={() => navigate(`/${continentCode}/${country.code}`)}
             >
               <p>{country.name}</p>
             </div>
